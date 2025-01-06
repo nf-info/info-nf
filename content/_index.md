@@ -1,17 +1,19 @@
 ---
-title: My Site
-toc: false
+title: Informatique CPGE
+cascade:
+  math: true
 ---
 
-This is the landing page.
+<br />
 
-## Explore
+> Computers are incredibly fast, accurate, and stupid. Human beings are incredibly slow, inaccurate, and brilliant. Together they are powerful beyond imagination.
+> 
+> &mdash; Unknown
+
+## Cours
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
+  {{< card link="sup" title="Sup" icon="book-open" >}}
+  {{< card link="spe" title="Spe" icon="book-open" >}}
 {{< /cards >}}
 
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
