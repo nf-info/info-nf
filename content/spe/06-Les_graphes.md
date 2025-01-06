@@ -4,7 +4,7 @@ Un graphe est un ensemble de sommets (nœuds) reliée par des arêtes
 (arcs)
 
 <figure>
-<p><img src="/spe/res/07-graph.png" style="width:50.0%" /></p>
+<p><img src="../res/07-graph.png" style="width:50.0%" /></p>
 <figcaption><p>Graphe</p></figcaption>
 </figure>
 

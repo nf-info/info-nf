@@ -13,7 +13,7 @@ def fibo(n):
 Pour `n = 4` on remarque l'arbre des appels suivant :
 
 <figure>
-<p><img src="/spe/res/05-fibo_graph.png" style="width:50.0%" /></p>
+<p><img src="../res/05-fibo_graph.png" style="width:50.0%" /></p>
 <figcaption><p>Arbre d’appels récursifs.</p></figcaption>
 </figure>
 

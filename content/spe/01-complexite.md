@@ -140,7 +140,7 @@ Le graphe suivant montre les comportements asymptotiques des différentes
 classes de complexité:
 
 <figure>
-<p><img src="/spe/res/01-graph.png" style="width:80.0%" /></p>
+<p><img src="../res/01-graph.png" style="width:80.0%" /></p>
 <figcaption><p>Classe de complexité</p></figcaption>
 </figure>
 
@@ -153,7 +153,7 @@ $$T = \frac{C(n)}{f}$$
 Pour un processeur de fréquence 1GHz on obtient les valeurs suivantes:
 
 <figure>
-<p><img src="/spe/res/01-complexité_temps.png" style="width:80.0%" /></p>
+<p><img src="../res/01-complexité_temps.png" style="width:80.0%" /></p>
 <figcaption><p>Classe de complexité</p></figcaption>
 </figure>
 

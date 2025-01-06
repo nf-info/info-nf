@@ -4,13 +4,13 @@
 
 Soit $f$ une fonction réelle.  
 On cherche la solution $\alpha$ de l'équation $f(x) = 0$
-![image](/sup/res/cubic.png)
+![image](../res/cubic.png)
 
 On part d'une valeur $x_0$ au hasard (sous
 certaines conditions) et on trace la tangente $T_1$ à la courbe
 $\mathcal{C}_f$ de $f$ en $x_0$
 
-![image](/sup/res/01.png)
+![image](../res/01.png)
 
 L'abscisse $x_1$ du point d'intersection de la tangente $T_1$ avec l'axe
 des abscisses est une valeur approchée de la solution $\alpha$
@@ -25,16 +25,16 @@ la solution $\alpha$
 
 
 
-![image](/sup/res/03.png)
+![image](../res/03.png)
 
 
-![image](/sup/res/05.png)
+![image](../res/05.png)
 
 
-![image](/sup/res/07.png)
+![image](../res/07.png)
 
 
-![image](/sup/res/09.png)
+![image](../res/09.png)
 
 La suite $\left ( x_n \right )_{n}$ est donc
 définie par la relation de récurrence :
