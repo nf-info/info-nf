@@ -254,22 +254,26 @@ Pour les fonctions récursives, le calcul de complexité donne souvent une
 formule de récurrence, il faut donc la résoudre pour trouver la formule
 du terme général.
 
-title: \[ Hors-programme: \], color: "blue", radius: 2pt, width: auto \[
+title: Hors-programme: 
 
 On peut s'appuyer sur le **master théorème** pour trouver rapidement la
 formule générale.
 
-Pour $$\begin{cases}
-T(n) = aT\left( \frac{n}{b} \right) + O\left( n^{k} \right) \\
+Pour 
+$$ \begin{cases}
+T(n) = aT\left( \frac{n}{b} \right) + O\left( n^{k} \right) \\\\
 T(1) = O(1)
-\end{cases}$$ On compare $k$ avec $\log_{\left\{ b \right\}}(a)$:
+\end{cases} $$
+
+
+ On compare $k$ avec $log_{\left\( b \right\)}(a)$:
 
 $$
 T(n) = \begin{cases}
-O\left( n^{k} \right)\mspace{90mu} & \text{ si }\mspace{15mu}\log_{b}(a) < k \\
-O\left( n^{k}\log_{b}(n) \right) & \text{ si }\mspace{15mu}\log_{b}(a) = k \\
-O\left( n^{\log_{b}(a)} \right) & \text{ si }\mspace{15mu}\log_{b}(a) > k
-\end{cases}$$ \]
+O\left( n^{k} \right) & \text{ si }\log_{b}(a) < k \\\\
+O\left( n^{k}\log_{b}(n) \right) & \text{ si }\log_{b}(a) = k \\\\
+O\left( n^{\log_{b}(a)} \right) & \text{ si }\log_{b}(a) > k
+\end{cases}$$ 
 
 # Exercices
 
