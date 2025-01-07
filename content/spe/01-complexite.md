@@ -1,3 +1,8 @@
+---
+title: Complexité
+weight: 10
+---
+
 # Introduction
 
 La complexité d'un algorithme est une mesure des ressources nécessaires

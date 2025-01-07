@@ -1,3 +1,8 @@
+---
+title: Programmation dynamique
+weight: 50
+---
+
 # Programmation Dynamique
 
 On considère le programme python suivant, qui permet de calculer le

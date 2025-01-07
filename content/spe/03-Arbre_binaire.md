@@ -1,3 +1,8 @@
+---
+title: Arbres binaires
+weight: 30
+---
+
 # Arbres binaires
 
 ## Définitions

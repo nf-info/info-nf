@@ -1,3 +1,8 @@
+---
+title: Algorithme de tri
+weight: 20
+---
+
 # Algorithmes de tri
 
 On souhaite réordonner une collection d'éléments suivant une relation

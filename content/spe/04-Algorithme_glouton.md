@@ -1,3 +1,8 @@
+---
+title: Algorithme Glouton
+weight: 40
+---
+
 # Algorithmes Gloutons
 
 Un algorithme glouton est un algorithme qui effectue a chaque instant,

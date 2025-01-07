@@ -1,3 +1,8 @@
+---
+title: Les graphes
+weight: 60
+---
+
 # Les graphes
 
 Un graphe est un ensemble de sommets (nœuds) reliée par des arêtes

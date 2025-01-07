@@ -1,4 +1,8 @@
-
+---
+title: Méthode de newton
+weight: 90
+draft: true
+---
 
 ### Description de la méthode
 
