@@ -40,10 +40,6 @@ name = "About"
 pageRef = "/about"
 weight = 30
 
-[[menu.main]]
-name = "Contact"
-url = "/contact"
-weight = 40
 
 [[menu.main]]
 name = "Search"
@@ -51,14 +47,6 @@ weight = 50
 
   [menu.main.params]
   type = "search"
-
-[[menu.main]]
-name = "GitHub"
-weight = 60
-url = "https://github.com/"
-
-  [menu.main.params]
-  icon = "github"
 
 [params.navbar]
 displayTitle = true
@@ -69,5 +57,5 @@ displayCopyright = true
 displayPoweredBy = false
 
 [params.editURL]
-enable = true
+enable = false
 base = "https://github.com/"
