@@ -3,8 +3,6 @@ title: Arbres binaires
 weight: 30
 ---
 
-# Arbres binaires
-
 ## Définitions
 
 **En mathématique:** Un arbre est un cas spécial de graphe acyclique

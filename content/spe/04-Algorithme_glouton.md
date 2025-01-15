@@ -1,9 +1,7 @@
 ---
-title: Algorithme Glouton
+title: Algorithmes Gloutons
 weight: 40
 ---
-
-# Algorithmes Gloutons
 
 Un algorithme glouton est un algorithme qui effectue a chaque instant,
 le meilleur choix possible sur le moment, sans retour en arrière

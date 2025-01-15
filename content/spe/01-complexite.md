@@ -3,8 +3,6 @@ title: Complexité
 weight: 10
 ---
 
-# Introduction
-
 La complexité d'un algorithme est une mesure des ressources nécessaires
 à son exécution, il y a deux ressources principales:
 
@@ -23,10 +21,11 @@ fonction des paramètres d'entrée.
 
 On souhaite comparer deux algorithmes qui permettent de déterminer si un
 entier naturel `n` est premier ou pas:
+
 - Pour cette première version on test si:
   $$\left( \forall i \in ⟦2,n⟦ \right) i \mid n$$
 
-```py
+```python {linenos=table,linenostart=1,filename="version1.py"}
 #
       def test_premier_version_1(n):
         flag = True
@@ -37,13 +36,11 @@ entier naturel `n` est premier ou pas:
 
 ```
 
-<--->
-
 - Pour la deuxième version on test si:
 
 $$\left( \forall i \in ⟦2,\sqrt{n}⟧ \right) i \mid n$$
 
-```py
+```python {linenos=table,linenostart=1,filename="version2.py"}
 from math import sqrt, ceil
 def test_premier_version_2(n):
     flag = True
@@ -60,9 +57,9 @@ def test_premier_version_2(n):
 L'intuition nous dis que la deuxième version est la plus rapide, mais
 pour mesurer ça, on s'appuie sur la notion de **complexité**.
 
-# Calcul de Complexité
+## Calcul de Complexité
 
-## Instructions élémentaires
+### Instructions élémentaires
 
 Il est nécessaire de préciser les instructions élémentaires disponibles,
 c'est-à-dire les opérations de coût constant:
@@ -77,7 +74,7 @@ c'est-à-dire les opérations de coût constant:
 - instructions de contrôle: `if`, `else`, `while`, `for`, `return`,
   `def`
 
-## Méthode de calcul
+### Méthode de calcul
 
 On énuméré le nombre d'instructions élémentaires qui seront exécutées
 dans l'algorithme, en utilisant les règles suivantes:
@@ -97,7 +94,7 @@ boucles `while`:
 
 ```py
 while (condition):      # 1
-    # Bloc a            # T_a(m)
+    # Bloc a            # T_a(i)
 ```
 
 Il n'y a pas de méthode sur, mais on essaye de trouver le nombre
@@ -139,7 +136,7 @@ $$C(n) = O(1) + O(1) + O(1) + \sum_{i = 2}^{n - 1}O(1)$$
 $$C(n) = O\left( 3 + (n - 2) \right)$$ On utilise la propriété suivante:
 $$f = o(g) \Rightarrow O(f + g) = O(g)$$ On obtient: $$C(n) = O(n)$$
 
-# Classes de complexité
+## Classes de complexité
 
 Le graphe suivant montre les comportements asymptotiques des différentes
 classes de complexité:
@@ -158,11 +155,11 @@ $$T = \frac{C(n)}{f}$$
 Pour un processeur de fréquence 1GHz on obtient les valeurs suivantes:
 
 <figure>
-<p><img src="../res/01-complexité_temps.png" style="width:80.0%" /></p>
-<figcaption><p>Classe de complexité</p></figcaption>
+<p><img src="../res/01-complexité_temps.png" style="width:100.0%" /></p>
+<figcaption><p>Temps d’exécution</p></figcaption>
 </figure>
 
-# Exercices
+## Exercices
 
 Calculez les complexités des fonctions suivantes:
 
@@ -219,7 +216,8 @@ def f7(n, L):
             sorted(L)
 ```
 
-title: \[ **Attention : ** \], \[ Les instructions suivantes ne sont pas
+{{< callout type="warning" >}}
+ Les instructions suivantes ne sont pas
 élémentaire:
 
 - recherche dans une liste; `x in L`, `L.index(x)`, `L.remove(x)`
@@ -227,9 +225,10 @@ title: \[ **Attention : ** \], \[ Les instructions suivantes ne sont pas
 - transferts de données composées; `T = L.copy()`, `chaîne = f.read()`
 
 En général, il faut se méfier de tout appel a des fonctions prédéfinis.
-\]
+{{< /callout >}}
 
-# Complexité des fonctions récursives
+
+## Complexité des fonctions récursives
 
 On applique les mêmes étapes:
 
@@ -280,7 +279,7 @@ O\left( n^{k}\log_{b}(n) \right) & \text{ si }\log_{b}(a) = k \\\\
 O\left( n^{\log_{b}(a)} \right) & \text{ si }\log_{b}(a) > k
 \end{cases}$$ 
 
-# Exercices
+## Exercices
 
 ``` py
 def f8(n):

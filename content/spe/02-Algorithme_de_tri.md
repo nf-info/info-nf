@@ -3,7 +3,6 @@ title: Algorithme de tri
 weight: 20
 ---
 
-# Algorithmes de tri
 
 On souhaite réordonner une collection d'éléments suivant une relation
 d'ordre déterminée. On peut, sans perte de généralité, simplifier
