@@ -59,11 +59,13 @@ Essayons de résoudre le même problème pour le système de monnaie
 $4,3,1$. Pour $S = 6$, l'algorithme glouton donne $4,1,1$. Alors que la
 solution optimale est $3,3$.
 
-title: "Attention :", \[ Les algorithmes glouton n'arrivent pas toujours
+{{< callout type="warning" >}}
+Les algorithmes glouton n'arrivent pas toujours
 a trouver la solution globalement optimale car ils n'essayent pas toutes
 les combinaisons possibles. Ils peuvent s'engager trop tôt sur certains
 choix, les empêchant de trouver la meilleure solution globale par la
-suite \]
+suite 
+{{< /callout >}}
 
 ## Problème 3 : Fractions Égyptiennes
 

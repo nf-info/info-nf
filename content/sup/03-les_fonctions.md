@@ -42,9 +42,10 @@ def double(x):
 Le code ci-dessus défini une fonction qui prend une variable `x` et qui
 affiche la valeur `x * 2`
 
-title : \[ Attention :\], \[ L'execution de ce code ne va **rien**
+{{< callout type="warning" >}} L'execution de ce code ne va **rien**
 faire, parce qu'il s'agit uniquement d'une definition de la fonction.
-Pour l’exécuter il faut **appeler** la fonction. \]
+Pour l’exécuter il faut **appeler** la fonction.
+{{< /callout >}}
 
 L'appel de la fonction se fait comme suit :
 

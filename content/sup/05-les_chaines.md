@@ -63,13 +63,12 @@ indices.
 
 # Les chaînes sont non modifiable
 
-title: \[ Attention \],
-
-\[
+{{< callout type="warning" >}}
 
 Au contraire des listes ou on peut modifier les elements, les chaînes de
-caractère sont **non-modifiable** \]
+caractère sont **non-modifiable**
 
+{{< /callout >}}
 ```py
 ch = "Bonjour"
 ch[1] = "a"

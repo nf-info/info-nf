@@ -52,10 +52,10 @@ print(T[1])     # Affichera "hello"
 
 ## Les tuples sont non modifiable
 
-title: \[ Attention \], \[
-
+{{< callout type="warning" >}}
 Au contraire des listes ou on peut modifier les elements, les tuples
-sont **non-modifiable** \]
+sont **non-modifiable** 
+{{< /callout >}}
 
 ```py
 T = (1, 2, 3)
