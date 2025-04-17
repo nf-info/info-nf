@@ -6,7 +6,7 @@ weight: 80
 
 ## Définition
 
-L’intelligence artificielle (IA) est l’ensemble des techniques permettant à des machines de simuler des comportements intelligents. 
+L'intelligence artificielle (IA) est l'ensemble des techniques permettant à des machines de simuler des comportements intelligents. 
 
 **Exemples** 
 - Classification d'images
@@ -27,7 +27,7 @@ Un problème de classification est un type de problème où l'objectif est de pr
 
 Le **K-Nearest Neighbors (KNN)** est un algorithme simple pour faire la classification.
 
-- Pour classer une nouvelle donnée, l’algorithme cherche les **K** exemples les plus proches dans l'ensemble des données d'entraînement, en se basant sur une métrique de distance (comme la distance Euclidienne).
+- Pour classer une nouvelle donnée, l'algorithme cherche les **K** exemples les plus proches dans l'ensemble des données d'entraînement, en se basant sur une métrique de distance (comme la distance Euclidienne).
 - La **classe** de la nouvelle donnée sera déterminée par la classe la plus fréquente parmi ses **K** voisins les plus proches.
 
 ### Étapes a suivre  

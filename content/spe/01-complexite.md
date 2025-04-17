@@ -17,7 +17,7 @@ On ne mesure pas les valeurs exactes (le nombre d'octets nécessaires ou
 le nombre de secondes) mais uniquement des ordres de grandeurs en
 fonction des paramètres d'entrée.
 
-#### Exemple:
+**Exemple :**
 
 On souhaite comparer deux algorithmes qui permettent de déterminer si un
 entier naturel `n` est premier ou pas:
@@ -79,7 +79,7 @@ c'est-à-dire les opérations de coût constant:
 On énuméré le nombre d'instructions élémentaires qui seront exécutées
 dans l'algorithme, en utilisant les règles suivantes:
 
-#### Règles
+**Règles :**
 
 Pour les boucles `for`:
 
@@ -119,7 +119,7 @@ Puisqu'on s'intéresse a la complexité **au pire des cas**, on utilise le
 max des différentes complexités des branches:
 $C(n) = O(1) + O\left( \max\left\lbrack T_{a}(n),T_{b}(n),T_{c}(n) \right\rbrack \right)$
 
-#### Exemple
+**Exemple :**
 
 ```py
 def test_premier_version_1(n):      # 1
@@ -156,7 +156,7 @@ Pour un processeur de fréquence 1GHz on obtient les valeurs suivantes:
 
 <figure>
 <p><img src="../res/01-complexité_temps.png" style="width:100.0%" /></p>
-<figcaption><p>Temps d’exécution</p></figcaption>
+<figcaption><p>Temps d'exécution</p></figcaption>
 </figure>
 
 ## Exercices
@@ -232,7 +232,7 @@ En général, il faut se méfier de tout appel a des fonctions prédéfinis.
 
 On applique les mêmes étapes:
 
-#### Exemple
+**Exemple :**
 
 On note $C(n)$ la complexité de la fonction suivante:
 
@@ -252,16 +252,16 @@ $$C(1) = O(1 + 1 + 1) = O(1)$$
 
 On peut alors montrer par récurrence que: $$C(n) = O(n)$$
 
-#### Règles
+**Règles :**
 
 Pour les fonctions récursives, le calcul de complexité donne souvent une
 formule de récurrence, il faut donc la résoudre pour trouver la formule
 du terme général.
 
-title: Hors-programme: 
-
+{{< callout type="warning" >}}
 On peut s'appuyer sur le **master théorème** pour trouver rapidement la
-formule générale.
+formule générale. mais la preuve de ce théorème est hors-programe 
+{{< /callout >}}
 
 Pour 
 $$ \begin{cases}

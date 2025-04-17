@@ -10,7 +10,7 @@ ensemble de caractères qui se suivent dans un ordre précis. Elles sont
 définies entre guillemets (double quote) `"`, ou entre apostrophes
 (simple quote) `'`
 
-#### Syntaxe
+**Syntaxe :**
 
 L'identificateur (le nom) d'une chaîne de caractères suit les mêmes
 règles que les identificateurs de variables. On définit une chaîne vide
@@ -58,7 +58,7 @@ print(ch[0])     # Affichera "B"
 print(ch[7])     # Affichera " "
 ```
 
-**PS**: les espaces sont aussi des caractères et ont leurs propres
+**PS :** les espaces sont aussi des caractères et ont leurs propres
 indices.
 
 # Les chaînes sont non modifiable
@@ -124,7 +124,7 @@ par exemple le caractère d'indice 0 peut aussi être indexe par
 
 - `len(ch)` permet d'obtenir le nombre d'elements d'une chaîne.
 
-- `ch.count(s)` permet de compter le nombre d’occurrence de la
+- `ch.count(s)` permet de compter le nombre d'occurrence de la
   sous-chaîne `s` dans `ch`
 
 - `ch.find(s)` renvoie l'indice de la sous-chaîne `s` dans la chaîne
@@ -179,7 +179,7 @@ Une tranche d'une chaîne est définie par un indice de début `d`, indice
 de fin `f`, et le pas `p` utilise, avec la syntaxe : `ch[d:f:p]` ou
 `ch[d:f]` pour un pas de 1
 
-#### Exemple
+**Exemple :**
 
 ```py
 ch = "Bonjour"

@@ -37,7 +37,7 @@ divise le nombre par 2 puis on divise successivement les quotients
 obtenus par 2 jusqu'à ce que le quotient final obtenu soit égal à 0. Les
 restes obtenus forment la représentation voulu.
 
-#### Exemple:
+**Exemple:**
 
 Pour $n = 77$, on effectue les divisions suivantes:
 
@@ -60,7 +60,7 @@ naturels sur 7 bits, et on rajoute 0 comme bit de **poids le plus
 fort**.\
 Pour les nombres négatifs, le bit de poids le plus fort est un 1
 
-#### Exemple:
+**Exemple:**
 
 - $77 = (01001101)_{2}$
 
@@ -82,13 +82,14 @@ Pour les nombres négatifs, on écrit leur valeur absolue en binaire
 naturel, puis on applique la fonction appelée Complément  a 2, qui
 consiste a faire le Complément  a 1 puis d'ajouter 1.
 
-#### Exemple:
+**Exemple:**
 
 Pour représenter -77 on commence par la représentation de 77:\
 $$77 = (01001101)_2$$ On applique le Complément  a 1 (le NON binaire),
 c'est a dire on inverse les 0 en 1 et les 1 en 0. On obtient:
 $$(10110010)_2$$ Puis on rajoute 1 et on obtient la représentation de
 -77 par Complément  a 2 sur 8 bits : $$- 77 = (10110011)_2$$
+
 **Remarques:**
 
 - Avec une taille de mot de 8 bits, on peut représenter les entiers
@@ -110,7 +111,7 @@ On représente la partie entière comme pour les entiers naturels. Pour la
 partie fractionnaire, on effectue des multiplications successive par
 deux, en prenant les parties entières a chaque fois.
 
-#### Exemple:
+**Exemple:**
 
 Pour représenter $13,375$, on représente $13$ par $(1101)\_{2}$, puis on
 représente la partie fractionnaire comme suit: $$0,375 \times 2 = 0,75$$
@@ -127,7 +128,7 @@ $1 \leq m < 2$. On note $m'$ la partie fractionnaire de $m$ donc:
 $$m = (1,m')\_{2}$$ Ce qui donne : $$n = \pm (1,m')_{2} \times 2^{e}$$ La
 norme propose deux format:
 
-- Simple précision qui s’écrit sur 32 bits.
+- Simple précision qui s'écrit sur 32 bits.
 
 - Double précision, sur 64 bits.
 
@@ -140,8 +141,107 @@ En simple précision le nombre n est représente par trois composantes:
 - 23 bits pour la mantisse (la partie fractionnaire, $m'$)
 
 ---
+<br />
+<style>
+.bit-box {
+  display: flex;
+  font-size: 0.8em;
+}
+.bit-box div {
+  border: 1px solid black;
+  padding: 2px 4px;
+}
+.sign {
+  background-color: #ffcdd2;
+}
+.exponent {
+  background-color: #c8e6c9; 
+}
+.mantissa {
+  background-color: #bbdefb;
+}
+</style>
+<div class="bit-box">
+  <div class="sign">S</div>
+  <div class="exponent">e</div>
+  <div class="exponent">e</div>
+  <div class="exponent">e</div>
+  <div class="exponent">e</div>
+  <div class="exponent">e</div>
+  <div class="exponent">e</div>
+  <div class="exponent">e</div>
+  <div class="exponent">e</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+  <div class="mantissa">m</div>
+</div>
 
-[S]{.box} [e]{.box} [e]{.box} [e]{.box} [e]{.box} [e]{.box} [e]{.box} [e]{.box} [e]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box} [m]{.box}
+Par exemple, pour représenter -5.75 en simple précision :
+
+1) -5.75 est négatif donc S = 1
+
+2) En binaire : -5.75 = -(101.11)₂ = -(1.0111)₂ × 2²
+   Donc m' = 0111 et e = 2
+
+3) e' = e + 127 = 129 = (10000001)₂
+
+4) La représentation finale est :
+<div class="bit-box">
+  <div class="sign">1</div>
+  <div class="exponent">1</div>
+  <div class="exponent">0</div>
+  <div class="exponent">0</div>
+  <div class="exponent">0</div>
+  <div class="exponent">0</div>
+  <div class="exponent">0</div>
+  <div class="exponent">0</div>
+  <div class="exponent">1</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">1</div>
+  <div class="mantissa">1</div>
+  <div class="mantissa">1</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+  <div class="mantissa">0</div>
+</div>
+
+<br />
 
 ---
 
@@ -152,7 +252,7 @@ En simple précision le nombre n est représente par trois composantes:
 - On rajoute 127 a l'exposant pour pouvoir représenter les exposants
   de $⟦ - 127,128⟧$
 
-#### Exemple:
+**Exemple:**
 
 Pour coder le nombre $n = 113,25$ :
 
@@ -163,7 +263,7 @@ $$n = (01110001,01)_{2}$$ $$n = 1,11000101 \times 2^{6}$$
 $$m' = 11000101\quad\text{ et }\quad e' = 6 + 127 = 133 = (10000101)$$
 d'ou la représentation de n : $$0\ 10000101\ 11000101000000000000000$$
 
-# Codage des caractères
+## Codage des caractères
 
 L'ASCII est une norme décrivant une table d'encodage sur 7 bits de 128
 caractères pour les systèmes informatiques. Elle est apparue dans les

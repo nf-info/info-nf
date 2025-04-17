@@ -8,7 +8,7 @@ Un système informatique est un ensemble organisé de ressources
 matérielles et logicielles destiné au traitement automatique de
 l'information.
 
-#### Exemples:
+**Exemples :**
 
 - Ordinateur;
 
@@ -54,7 +54,7 @@ organes:
 - **Unité de commande:** Celle là permet de générer tous les ordres
   nécessaires pour le fonctionnement de l'ordinateur.
 
-**Remarque:** Un microprocesseur est caractérisé par:
+**Remarque :** Un microprocesseur est caractérisé par:
 
 1.  **Sa marque:** Intel, AMD
 
@@ -86,7 +86,7 @@ programme qui gère les ressources matérielles et logicielles de
 l'ordinateur à la demande d'un programme ou de l'utilisateur, il est
 chargé de contrôler et d'organiser le fonctionnement de l'ordinateur.
 
-#### Exemples
+**Exemples :**
 
 - **Microsoft Windows** : Windows XP, Vista, 7, 8, 10, 11.
 

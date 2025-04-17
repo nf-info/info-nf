@@ -1,5 +1,5 @@
 ---
-title: Tuples, Dictionnaires, Ensembles
+title: Tuples, Dictionnaires, et Ensembles
 weight: 80
 ---
 
@@ -10,9 +10,9 @@ de structurer les données. On peut également organiser les données dans
 d'autres **structures de données**. Chaque structure présente différents
 avantages et inconvénients suivant les situations.
 
-# Les Tuples
+## Les Tuples
 
-#### Syntaxe
+**Syntaxe :**
 
 L'identificateur (le nom) d'un tuple suit les mêmes règles que les
 identificateurs de variables. On définit un tuple comme suit:
@@ -77,19 +77,19 @@ print(T[-2])          # Affichera 3.14
 ```
 
 L'indexage négatif revient a retrancher `len(T)` de l'indice positif,
-par exemple l’élément d'indice 0 peut aussi être indexe par `-len(T)`.
+par exemple l'élément d'indice 0 peut aussi être indexe par `-len(T)`.
 
 ## Méthodes et fonctions sur les tuples
 
 - `len(T)` permet d'obtenir le nombre d'elements d'un tuple.
 
-- `T.count(e)` permet de compter le nombre d’occurrence de l’élément
+- `T.count(e)` permet de compter le nombre d'occurrence de l'élément
   `e` dans `T`
 
-- `T.index(e)` donne l'indice de la première occurrence de l’élément
+- `T.index(e)` donne l'indice de la première occurrence de l'élément
   `e` dans `T`
 
-- `e in T` donne `True` si le tuple `T` contient l’élément `e`,
+- `e in T` donne `True` si le tuple `T` contient l'élément `e`,
   `False` sinon.
 
 ## Parcours d'un tuple
@@ -116,7 +116,7 @@ Une tranche d'un tuple est définie par un indice de début `d`, indice de
 fin `f`, et le pas `p` utilise, avec la syntaxe : `T[d:f:p]` ou `T[d:f]`
 pour un pas de 1
 
-#### Exemple
+**Exemple :**
 
 ```py
 T = (1, "hello", 3.14, True)
@@ -129,7 +129,7 @@ De même, si on omet l'indice de fin, la tranche finira a la fin du
 tuple. Si les indices début ou fin sont dans le mauvais ordre, on
 obtient une chaîne vide.
 
-# Les Dictionnaires
+## Les Dictionnaires
 
 ## Definition
 
@@ -187,7 +187,7 @@ del d2[1]
 - `cle in d` test si `cle` est une clé dans le dictionnaire `d`
   (retourne un boolean)
 
-- `for cle in d` permet d’itérer sur les clés du dictionnaire
+- `for cle in d` permet d'itérer sur les clés du dictionnaire
 
 - `d.items()` donne la liste des couples clé-valeur du dictionnaire
   `d`
@@ -196,7 +196,7 @@ del d2[1]
 
 - `d.values` donne la liste des valeurs du dictionnaire `d`
 
-# Les ensembles
+## Les ensembles
 
 ## Definition
 
@@ -214,11 +214,11 @@ print(F)          # Affiche {1, 2, 3, 5}
 
 ## Operation sur les ensembles
 
-- `len(E)` : permet d'obtenir le nombre d’élément de l'ensemble `E`
+- `len(E)` : permet d'obtenir le nombre d'élément de l'ensemble `E`
 
-- `E.add(e)` : Ajoute l’élément `e` a l'ensemble `E`
+- `E.add(e)` : Ajoute l'élément `e` a l'ensemble `E`
 
-- `E | F` : donne l'union de $E \cup F$
+- `E | F` : donne l'union $E \cup F$
 
 - `E & F` : donne l'intersection $E \cap F$
 

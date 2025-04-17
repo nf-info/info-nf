@@ -8,7 +8,7 @@ weight: 50
 Une liste est un ensemble d'objets mis dans un ordre précis. Elles sont
 définies entre crochets et les éléments sont séparés par une virgule.
 
-#### Syntaxe
+**Syntaxe :**
 
 L'identificateur (le nom) d'une liste suit les mêmes règles que les
 identificateurs de variables. On définit une liste vide comme suit:
@@ -76,7 +76,7 @@ L[3] = 5
 # ERREUR list index out of range.
 ```
 
-# Ajout et suppression d’élément
+# Ajout et suppression d'élément
 
 Lorsqu'une liste existe, il est possible d'ajouter ou enlever un élément
 très facilement avec les fonctions pop et append :
@@ -84,10 +84,10 @@ très facilement avec les fonctions pop et append :
 ```py
 L = [1, 2, 3]
 
-L.append(5)         # Ajout l’élément 5 a la fin de la liste
+L.append(5)         # Ajout l'élément 5 a la fin de la liste
 # Donnera [1, 2, 3, 5]
 
-L.pop(2)            # Enlève l’élément d'indice 2
+L.pop(2)            # Enlève l'élément d'indice 2
 # Donnera [1, 2, 5]
 
 L.pop()             # Si on donne pas de paramètre, pop enlève le dernier
@@ -133,7 +133,7 @@ print(L[-2])          # Affichera 20
 ```
 
 L'indexage négatif revient a retrancher `len(L)` de l'indice positif,
-par exemple l’élément d'indice 0 peut aussi être indexer par `-len(L)`.
+par exemple l'élément d'indice 0 peut aussi être indexer par `-len(L)`.
 
 Pour accéder au dernier élément d'une liste, on peut donc utiliser
 `L[-1]` au lieu de `L[len(L)-1]`
@@ -142,28 +142,28 @@ Pour accéder au dernier élément d'une liste, on peut donc utiliser
 
 - `len(L)` permet d'obtenir le nombre d'elements d'une liste.
 
-- `L.append(e)` permet d'ajouter l’élément `e` a la fin de la liste.
+- `L.append(e)` permet d'ajouter l'élément `e` a la fin de la liste.
 
 - `L.clear()` permet de vider la liste.
 
 - `L.copy()` permet de faire une copy de la liste
 
-- `L.count(e)` permet de compter le nombre d’occurrence de l’élément
+- `L.count(e)` permet de compter le nombre d'occurrence de l'élément
   `e` dans `L`
 
 - `L.extend(T)` permet d'ajouter tous les elements de la liste `T` a
   la fin de la liste `L`
 
-- `L.index(e)` renvoie l'indice de l’élément `e` dans la liste `L`.
-  Attention, la fonction donne une erreur si l’élément n'est pas dans
+- `L.index(e)` renvoie l'indice de l'élément `e` dans la liste `L`.
+  Attention, la fonction donne une erreur si l'élément n'est pas dans
   la liste.
 
-- `L.insert(i, e)` permet d’insérer l’élément `e` dans l'indice `i`.
+- `L.insert(i, e)` permet d'insérer l'élément `e` dans l'indice `i`.
 
-- `L.pop(i)` permet d'enlever l’élément d'indice `i` et le renvoie.
+- `L.pop(i)` permet d'enlever l'élément d'indice `i` et le renvoie.
 
-- `L.remove(e)` permet d'enlever l’élément `e` de la liste si il
-  existe. Attention, la fonction donne une erreur si l’élément n'est
+- `L.remove(e)` permet d'enlever l'élément `e` de la liste si il
+  existe. Attention, la fonction donne une erreur si l'élément n'est
   pas dans la liste
 
 - `L.reverse()` permet d'inverser l'ordre des elements dans la liste
@@ -177,20 +177,20 @@ On peut parcourir la liste comme suit :
 
 ```py
 for i in range(len(L)):
-    print("l’élément d'indice", i, "est", L[i])
+    print("l'élément d'indice", i, "est", L[i])
 ```
 
 Ou encore :
 
 ```py
 for i in L:
-    print("l’élément est", i)
+    print("l'élément est", i)
 ```
 
-**Remarque:** Si on parcourt une liste par `for x in L`, la variable `x`
+**Remarque :** Si on parcourt une liste par `for x in L`, la variable `x`
 va itérer sur les éléments de `L` mais on n'a pas accès à l'indice de
 chaque élément. Par contre quand on utilise `for i in range(len(L))`, on
-peut accéder a l’élément par `L[i]`, ainsi que son indice `i`.
+peut accéder a l'élément par `L[i]`, ainsi que son indice `i`.
 
 # Les tranches de listes
 

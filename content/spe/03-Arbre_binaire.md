@@ -23,16 +23,16 @@ nœudsChaque nœud a une **étiquette** : une valeur ou donnée associée au
 nœud.\
 **L'ordre** ou la **taille** d'un arbre est le nombre de nœuds qui le
 compose.\
-La **racine** d'un arbre est le nœud le plus haut dans l’hiérarchie de
+La **racine** d'un arbre est le nœud le plus haut dans l'hiérarchie de
 l'arbre, c'est le nœud "de départ".\
 Tous les nœuds sauf la racine ont un unique **père**, c'est le nœud
-directement au-dessus dans l’hiérarchie.\
+directement au-dessus dans l'hiérarchie.\
 Les nœuds ont 0, 1, ou plusieurs **fils**. Les nœuds sans fils sont
 appelé **feuilles** de l'arbre.\
 Le **degré** d'un nœud est le nombre de fils qu'il a.\
-La **profondeur** d'un nœud est le nombre d’arête nécessaire pour aller
+La **profondeur** d'un nœud est le nombre d'arête nécessaire pour aller
 du nœud a la racine.\
-On s’intéresse dans ce cours aux arbres **binaires**, c-a-d, les arbres
+On s'intéresse dans ce cours aux arbres **binaires**, c-a-d, les arbres
 ayant des nœuds de degré maximum 2.\
 
 <figure>
@@ -139,7 +139,7 @@ def BFS(A):
             F.append(fils_d(x))
 ```
 
-# Arbre Binaire de Recherche (Binary Search Tree)
+## Arbre Binaire de Recherche (Binary Search Tree)
 
 Un ABR `A` est un arbre binaire qui vérifie les conditions suivantes :
 
@@ -203,7 +203,7 @@ def remove(ABR, e):
 
 ```
 
-# Tas
+## Tas
 
 Un Tas `T` est un arbre binaire qui vérifie les conditions suivantes :
 
@@ -211,7 +211,7 @@ Un Tas `T` est un arbre binaire qui vérifie les conditions suivantes :
   doivent être totalement remplis et le dernier niveau est rempli de
   gauche à droite.
 
-- l’étiquette de chaque nœud est supérieure ou égale (resp.
+- l'étiquette de chaque nœud est supérieure ou égale (resp.
   inférieure ou égale) aux étiquettes de ses fils, on parle de tas
   **max** (resp. tas **min**)
 
@@ -222,7 +222,7 @@ Un Tas `T` est un arbre binaire qui vérifie les conditions suivantes :
 
 ## Implémentation
 
-Le tas étant un arbre binaire parfait, on peut l’implémenter en
+Le tas étant un arbre binaire parfait, on peut l'implémenter en
 utilisant une seule liste, ou on met la racine a l'indice 0, et pour
 chaque nœud `i` on met les fils gauche et droit aux position `2*i+1` et
 `2*i+2`.

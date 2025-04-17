@@ -5,13 +5,13 @@ weight: 30
 
 ## Définitions
 
-#### Algorithme :
+**Algorithme :**
 
 C'est une suite finie d'opérations ou d'instructions permettant de
 résoudre des problèmes, par exemple : une recette de cuisine, un manuel
 d'installation, etc.
 
-#### Programme :
+**Programme :**
 
 Un programme est un algorithme écrit dans un langage de programmation,
 destine à être exécuté par une machine, pour résoudre un problème donne.
@@ -28,7 +28,7 @@ et contient une **valeur** et qui est utilisé au cours d'un programme.
 On l'appelle variable parce que sa valeur varie au cours de l'exécution
 du programme.
 
-#### Exemple
+**Exemple :**
 
 En python, on crée une variable en lui affectant une valeur :
 
@@ -218,7 +218,7 @@ var3 = var1 and not var2
 print(var1 or var2)
 ```
 
-# Opérateurs de comparaison
+## Opérateurs de comparaison
 
 Les opérateurs suivants permettent de comparer deux éléments, leur
 résultat et un booléen (`True` ou `False`)
@@ -375,7 +375,7 @@ for i in range(10):
 
 Pour chaque `i` pair, le mot cle `continue` va sauter le reste des
 instructions dans la boucle (notamment le `print`), et va **continuer**
-d’itérer, c'est a dire passer a la prochaine itération. La boucle
+d'itérer, c'est a dire passer a la prochaine itération. La boucle
 n'affichera alors que les nombres impairs.
 
 - **Le mot clé `break`**

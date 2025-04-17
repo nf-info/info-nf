@@ -1,6 +1,20 @@
 title = "info-nf"
 defaultContentLanguage = "fr"
+enableInlineShortcodes = true
 
+# SEO and Meta Information
+[params]
+  description = "Ressources pédagogiques pour les cours d'informatique en CPGE - Classes Préparatoires aux Grandes Écoles"
+  keywords = ["CPGE", "informatique", "programmation", "Python", "algorithmes", "cours", "éducation", "préparation", "grandes écoles"]
+  author = "Info-NF"
+  dateFormat = "2006-01-02"
+  # Theme color scheme
+  primaryColor = "#2563eb"  # Blue
+  secondaryColor = "#1e40af"  # Darker blue
+  accentColor = "#3b82f6"  # Light blue
+  backgroundColor = "#ffffff"  # White
+  textColor = "#1f2937"  # Dark gray
+  lightTextColor = "#6b7280"  # Medium gray
 
 [markup]
   [markup.tableOfContents]
@@ -51,11 +65,23 @@ weight = 50
 [params.navbar]
 displayTitle = true
 displayLogo = false
+# Add navbar styling
+style = "primary"
+background = "light"
 
 [params.footer]
 displayCopyright = true
 displayPoweredBy = false
+# Add footer styling
+style = "light"
+background = "light"
 
 [params.editURL]
 enable = false
 base = "https://github.com/"
+
+# Add social media meta tags
+[params.social]
+#  twitter = "@info_nf"
+  github = "github.com/nf-info"
+#  linkedin = "linkedin.com/company/info-nf"
