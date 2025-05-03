@@ -11,7 +11,7 @@ Une fonction est donc un "bout de code", un ensemble d'instructions qui
 est exécutée et renvoie un résultat a partir des donnes d'entrée :
 
 <figure>
-<p><img src="../res/03-fonction.png" style="width:40.0%" /></p>
+<p><img src="/img/03-fonction.png" style="width:40.0%" /></p>
 <figcaption><p>Schema d'une fonction python</p></figcaption>
 </figure>
 

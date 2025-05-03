@@ -14,7 +14,7 @@ pour représenter ce type de graphes.
 ## Exemples et terminologie
 
 <figure>
-<p><img src="../res/03-arbre_1.png" style="width:60.0%" /></p>
+<p><img src="/img/03-arbre_1.png" style="width:60.0%" /></p>
 <figcaption><p>Un arbre contenant des entiers</p></figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ On s'intéresse dans ce cours aux arbres **binaires**, c-a-d, les arbres
 ayant des nœuds de degré maximum 2.\
 
 <figure>
-<p><img src="../res/03-arbre_2.png" style="width:60.0%" /></p>
+<p><img src="/img/03-arbre_2.png" style="width:60.0%" /></p>
 <figcaption><p>Classe de complexité</p></figcaption>
 </figure>
 
@@ -152,7 +152,7 @@ Un ABR `A` est un arbre binaire qui vérifie les conditions suivantes :
 - Les sous-arbres gauche et droit sont des ABR (récursivité)
 
 <figure>
-<p><img src="../res/03-ABR.png" style="width:90.0%" /></p>
+<p><img src="/img/03-ABR.png" style="width:90.0%" /></p>
 <figcaption><p>Un ABR</p></figcaption>
 </figure>
 
@@ -216,7 +216,7 @@ Un Tas `T` est un arbre binaire qui vérifie les conditions suivantes :
   **max** (resp. tas **min**)
 
 <figure>
-<p><img src="../res/03-tas.png" style="width:60.0%" /></p>
+<p><img src="/img/03-tas.png" style="width:60.0%" /></p>
 <figcaption><p>Un tas</p></figcaption>
 </figure>
 

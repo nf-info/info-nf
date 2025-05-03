@@ -82,7 +82,7 @@ plt.show()
 
 On obtient le graphe suivant :
 <figure>
-<p><img src="../res/08_iris.png" style="width:100.0%" /></p>
+<p><img src="/img/08_iris.png" style="width:100.0%" /></p>
 <figcaption><p>Distribution suivant les différentes caractéristiques</p></figcaption>
 </figure>
 

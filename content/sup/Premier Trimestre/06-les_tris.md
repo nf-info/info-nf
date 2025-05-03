@@ -65,10 +65,10 @@ de la liste non triée dans la liste triée.
 def insertionSort(L):
     for i in range(1, len(L)):
         cle = L[i]
-        j = i-1
+        j = i - 1
         while j >= 0 and cle < L[j] :
-                L[j + 1] = L[j]
-                j -= 1
+            L[j + 1] = L[j]
+            j -= 1
         L[j + 1] = cle
 ```
 

@@ -42,7 +42,7 @@ restes obtenus forment la représentation voulu.
 Pour $n = 77$, on effectue les divisions suivantes:
 
 <figure>
-<p><img src="../res/01-divisions.png" style="width:40.0%" /></p>
+<p><img src="/img/01-divisions.png" style="width:40.0%" /></p>
 <figcaption><p>Divisions successives par 2</p></figcaption>
 </figure>
 
@@ -277,6 +277,6 @@ octet) depuis les années 1970, chaque caractère d'un texte en ASCII est
 souvent stocké dans un octet dont le 8e bit est 0.
 
 <figure>
-<p><img src="../res/01-ASCII.png" style="width:90.0%" /></p>
+<p><img src="/img/01-ASCII.png" style="width:90.0%" /></p>
 <figcaption><p>Tableau ASCII</p></figcaption>
 </figure>

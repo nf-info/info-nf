@@ -88,7 +88,7 @@ plt.title("Image binaire")
 plt.axis('off')
 plt.show()
 ```
-![image binaire](./res/09/11.png)
+![image binaire](/img//09/11.png)
 
 #### Image en niveaux de gris
 
@@ -104,7 +104,7 @@ plt.title("Image en niveaux de gris")
 plt.axis('off')
 plt.show()
 ```
-![image niveaux de gris](./res/09/12.png)
+![image niveaux de gris](/img//09/12.png)
 
 #### Image en couleur (RGB)
 
@@ -122,7 +122,7 @@ plt.title("Image en couleur (RGB)")
 plt.axis('off')
 plt.show()
 ```
-![image en couleur](./res/09/13.png)
+![image en couleur](/img//09/13.png)
 
 ### Chargement et affichage d'images réelles
 
@@ -144,7 +144,7 @@ plt.title("Image originale")
 plt.axis('off')
 plt.show()
 ```
-![image](./res/09/14.png)
+![image](/img//09/14.png)
 
 ### Accès aux canaux de couleur
 
@@ -178,7 +178,7 @@ plt.axis('off')
 plt.tight_layout()
 plt.show()
 ```
-![canaux de couleur](./res/09/15.png)
+![canaux de couleur](/img//09/15.png)
 
 ### Conversion en niveaux de gris
 
@@ -205,7 +205,7 @@ plt.axis('off')
 plt.tight_layout()
 plt.show()
 ```
-![conversion niveaux de gris](./res/09/16.png)
+![conversion niveaux de gris](/img//09/16.png)
 
 ## Transformations géométriques de base
 
@@ -231,7 +231,7 @@ plt.axis('off')
 plt.tight_layout()
 plt.show()
 ```
-![Symétrie horizontale](./res/09/17.png)
+![Symétrie horizontale](/img//09/17.png)
 
 ### Symétrie verticale
 
@@ -273,7 +273,7 @@ plt.axis('off')
 plt.tight_layout()
 plt.show()
 ```
-![rotations de l'image](./res/09/18.png)
+![rotations de l'image](/img//09/18.png)
 
 ### Recadrage (crop)
 
@@ -298,7 +298,7 @@ plt.axis('off')
 plt.tight_layout()
 plt.show()
 ```
-![recadrage de l'image](./res/09/19.png)
+![recadrage de l'image](/img//09/19.png)
 
 ## Convolution et filtres
 
@@ -385,7 +385,7 @@ plt.axis('off')
 plt.tight_layout()
 plt.show()
 ```
-![filtre moyenneur](./res/09/20.png)
+![filtre moyenneur](/img//09/20.png)
 
 ### Filtre gaussien
 
@@ -424,7 +424,7 @@ plt.axis('off')
 plt.tight_layout()
 plt.show()
 ```
-![filtre gaussien](./res/09/21.png)
+![filtre gaussien](/img//09/21.png)
 
 ### Détection de contours
 
@@ -477,7 +477,7 @@ plt.axis('off')
 plt.tight_layout()
 plt.show()
 ```
-![détection de contours](./res/09/22.png)
+![détection de contours](/img/09/22.png)
 
 ## Ressources supplémentaires
 

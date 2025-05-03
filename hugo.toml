@@ -49,6 +49,11 @@ name = "Spe"
 pageRef = "/spe"
 weight = 20
 
+#[[menu.main]]
+#name = "Blog"
+#pageRef = "/blog"
+#weight = 30
+
 [[menu.main]]
 name = "About"
 pageRef = "/about"
@@ -65,9 +70,15 @@ weight = 50
 [params.navbar]
 displayTitle = true
 displayLogo = false
+
 # Add navbar styling
 style = "primary"
 background = "light"
+ [params.navbar.logo]
+  path = "favicon.svg"
+  dark = "favicon-dark.svg"
+  link = "/"
+
 
 [params.footer]
 displayCopyright = true
@@ -85,3 +96,13 @@ base = "https://github.com/"
 #  twitter = "@info_nf"
   github = "github.com/nf-info"
 #  linkedin = "linkedin.com/company/info-nf"
+
+
+[[menu.sidebar]]
+name = "About"
+pageRef = "/about"
+weight = 1
+
+#  [menu.sidebar.params]
+#  type = "separator"
+
