@@ -8,8 +8,10 @@ weight: 10
 
 | Année | Énoncé | Correction | Thèmes |
 |-------|---------|------------|---------|
-| 2023 | [PDF](/concours/cnc/2023/CNC2023_enonce.pdf) | [PDF](/concours/cnc/2023/CNC2023_correction.pdf) | Programmation dynamique, Graphes |
-| 2022 | [MP](/concours/cnc/2022/CNC2022A_enonce.pdf) [PSI](/concours/cnc/2022/CNC2022B_enonce.pdf) [TSI](/concours/cnc/2022/CNC2022C_enonce.pdf) | [MP](/concours/cnc/2022/CNC2022A_correction.pdf) [PSI](/concours/cnc/2022/CNC2022B_correction.pdf) [TSI](/concours/cnc/2022/CNC2022C_correction.pdf) | Arbres binaires, Files, Tris |
-| 2021 | [PDF](/concours/cnc/2021/CNC2021_enonce.pdf) | [PDF](/concours/cnc/2021/CNC2021_correction.pdf) | Récursivité, Listes chaînées |
-| 2020 | [PDF](/concours/cnc/2020/CNC2020_enonce.pdf) | [PDF](/concours/cnc/2020/CNC2020_correction.pdf) | Algorithmes gloutons, Matrices |
-| 2019 | [MP](/concours/cnc/2019/CNC2019A_enonce.pdf) [PSI](/concours/cnc/2019/CNC2019B_enonce.pdf) [TSI](/concours/cnc/2019/CNC2019C_enonce.pdf) | [MP](/concours/cnc/2019/CNC2019A_correction.pdf) [PSI](/concours/cnc/2019/CNC2019B_correction.pdf) [TSI](/concours/cnc/2019/CNC2019C_correction.pdf) | Piles, Complexité, Arbres |
+| 2024 | [MP](/concours/cnc/énoncé/2024_MP.pdf) | [MP](/concours/cnc/corrige/2024_mp/) | |
+| 2023 | [MP](/concours/cnc/énoncé/2023_MP.pdf) | | Programmation dynamique, Graphes |
+| 2022 | [MP](/concours/cnc/énoncé/2022_MP.pdf) | | Arbres binaires, Files, Tris |
+| 2021 | [MP](/concours/cnc/énoncé/2021_MP.pdf) | | Récursivité, Listes chaînées |
+| 2020 | [MP](/concours/cnc/énoncé/2020_MP.pdf) | | Algorithmes gloutons, Matrices |
+| 2019 | [MP](/concours/cnc/énoncé/2019_MP.pdf) | | Piles, Complexité, Arbres |
+| 2018 | [MP](/concours/cnc/énoncé/2018_MP.pdf) | | Piles, Complexité, Arbres |

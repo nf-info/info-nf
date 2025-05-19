@@ -15,14 +15,14 @@ Ressources d'informatique pour les étudiants en CPGE (SUP et SPE).
 ## Cours
 
 {{< cards >}}
-  {{< card link="sup" title="Sup" icon="book-open" description="Matériels de première année couvrant les concepts fondamentaux de programmation, les bases de Python et les algorithmes essentiels." >}}
-  {{< card link="spe" title="Spe" icon="book-open" description="Sujets avancés de deuxième année incluant les algorithmes complexes, les structures de données et les techniques de programmation spécialisées." >}}
+  {{< card link="/sup" title="Sup" icon="book-open" description="Matériels de première année couvrant les concepts fondamentaux de programmation, les bases de Python et les algorithmes essentiels." >}}
+  {{< card link="/spe" title="Spe" icon="book-open" description="Sujets avancés de deuxième année incluant les algorithmes complexes, les structures de données et les techniques de programmation spécialisées." >}}
 {{< /cards >}}
 
 ## Concours
 
 {{< cards >}}
-  {{< card link="concours/cnc" title="CNC" icon="collection" description="Concours National Commun - Ressources et exercices spécifiques pour la préparation au concours national commun." >}}
-  {{< card link="concours/cf" title="CF" icon="collection" description="Concours Français - Matériels et exercices pour la préparation au concours français." >}}
+  {{< card link="/concours/cnc" title="CNC" icon="collection" description="Concours National Commun - Ressources et exercices spécifiques pour la préparation au concours national commun." >}}
+  {{< card link="/concours/cf" title="CF" icon="collection" description="Concours Français - Matériels et exercices pour la préparation au concours français." >}}
 {{< /cards >}}
 

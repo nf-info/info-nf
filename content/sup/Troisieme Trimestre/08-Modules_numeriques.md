@@ -44,11 +44,30 @@ Contrairement aux listes, les opérations sur les tableaux NumPy sont **automati
 
 ```python
 A = np.array([1, 2, 3])
-B = A * 2        # Renvoie array([2, 4, 6])
-C = A + A        # Renvoie array([2, 4, 6])
+B = A + 5        # Renvoie array([6, 7, 8])
+C = A * 2        # Renvoie array([2, 4, 6])
 D = A ** 2       # Renvoie array([1, 4, 9])
-F = np.sin(A)    # Renvoie array([0.84147098, 0.90929743, 0.14112001])
 ```
+
+Lorsque deux tableaux NumPy ont **la même forme**, on peut effectuer des opérations élément par élément, comme l'addition, la soustraction, le produit d’Hadamard (multiplication terme à terme) ou la division :
+
+```python
+A = np.array([1, 2, 3])
+B = np.array([4, 5, 6])
+
+# Addition élément par élément, comme pour les vecteurs mathématique
+C = A + B        # Renvoie array([5, 7, 9])
+
+# Soustraction élément par élément, comme pour les vecteurs mathématique
+C = A - B        # Renvoie array([-3, -3, -3])
+
+# Produit d’Hadamard : multiplication élément par élément
+E = A * B        # Renvoie array([4, 10, 18])
+
+# Division élément par élément
+F = B / A        # Renvoie array([4. , 2.5, 2. ])
+```
+
 
 ### Fonctions de création de tableaux
 
