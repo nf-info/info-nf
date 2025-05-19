@@ -8,10 +8,10 @@ weight: 10
 
 | Année | Énoncé | Correction | Thèmes |
 |-------|---------|------------|---------|
-| 2024 | [MP](/concours/cnc/énoncé/2024_MP.pdf) | [MP](/concours/cnc/corrige/2024_mp/) | |
-| 2023 | [MP](/concours/cnc/énoncé/2023_MP.pdf) | | Programmation dynamique, Graphes |
-| 2022 | [MP](/concours/cnc/énoncé/2022_MP.pdf) | | Arbres binaires, Files, Tris |
-| 2021 | [MP](/concours/cnc/énoncé/2021_MP.pdf) | | Récursivité, Listes chaînées |
-| 2020 | [MP](/concours/cnc/énoncé/2020_MP.pdf) | | Algorithmes gloutons, Matrices |
-| 2019 | [MP](/concours/cnc/énoncé/2019_MP.pdf) | | Piles, Complexité, Arbres |
-| 2018 | [MP](/concours/cnc/énoncé/2018_MP.pdf) | | Piles, Complexité, Arbres |
+| 2024 | [MP](/concours/cnc/énoncé/2024_MP.pdf) | [MP](/concours/cnc/corrige/2024_mp/) | Produit d'une chaîne matricielle, Segmentation d'image, Programmation dynamique, k-means |
+| 2023 | [MP](/concours/cnc/énoncé/2023_MP.pdf) | | |
+| 2022 | [MP](/concours/cnc/énoncé/2022_MP.pdf) | | |
+| 2021 | [MP](/concours/cnc/énoncé/2021_MP.pdf) | | |
+| 2020 | [MP](/concours/cnc/énoncé/2020_MP.pdf) | | |
+| 2019 | [MP](/concours/cnc/énoncé/2019_MP.pdf) | | |
+| 2018 | [MP](/concours/cnc/énoncé/2018_MP.pdf) | | |

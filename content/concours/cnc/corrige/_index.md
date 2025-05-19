@@ -1,6 +1,6 @@
-<!-- ---
+---
 cascade:
     sidebar:
         exclude: true
---- -->
+---
 
