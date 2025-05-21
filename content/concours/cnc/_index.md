@@ -9,7 +9,7 @@ weight: 10
 | Année | Énoncé | Correction | Thèmes |
 |-------|---------|------------|---------|
 | 2024 | [MP](/concours/cnc/énoncé/2024_MP.pdf) | [MP](/concours/cnc/corrige/2024_mp/) | Produit d'une chaîne matricielle, Segmentation d'image, Programmation dynamique, k-means |
-| 2023 | [MP](/concours/cnc/énoncé/2023_MP.pdf) | | |
+| 2023 | [MP](/concours/cnc/énoncé/2023_MP.pdf) | [MP](/concours/cnc/corrige/2023_mp/) | |
 | 2022 | [MP](/concours/cnc/énoncé/2022_MP.pdf) | | |
 | 2021 | [MP](/concours/cnc/énoncé/2021_MP.pdf) | | |
 | 2020 | [MP](/concours/cnc/énoncé/2020_MP.pdf) | | |

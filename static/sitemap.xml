@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://info-nf.com/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/spe/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/about/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/premier-trimestre/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/premier-trimestre/00-system_info/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/premier-trimestre/01-codage/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/premier-trimestre/02-intro_python/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/premier-trimestre/03-les_fonctions/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/premier-trimestre/04-les_listes/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/premier-trimestre/05-les_chaines/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/premier-trimestre/06-les_tris/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/premier-trimestre/07-tuples_dictionnaires_ensembles/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/deuxieme-trimestre/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/deuxieme-trimestre/07bis-les_piles_et_les_files/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/troisieme-trimestre/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/troisieme-trimestre/08-modules_numeriques/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/sup/troisieme-trimestre/09-traitement_dimages/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/spe/premier-trimestre/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/spe/premier-trimestre/01-complexite/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/spe/premier-trimestre/02-algorithme_de_tri/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/spe/premier-trimestre/03-arbre_binaire/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/spe/premier-trimestre/04-algorithme_glouton/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/spe/premier-trimestre/05-programmation_dynamique/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/spe/premier-trimestre/07-heuristique/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/spe/deuxieme-trimestre/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/spe/deuxieme-trimestre/06-les_graphes/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/spe/deuxieme-trimestre/08-intelligence_artificielle/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/spe/deuxieme-trimestre/09-sql/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/concours/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/concours/cnc/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/concours/cf/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/concours/cnc/%c3%a9nonc%c3%a9/2024_MP.pdf</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/concours/cnc/corrige/2024_mp/</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/concours/cnc/%c3%a9nonc%c3%a9/2023_MP.pdf</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/concours/cnc/%c3%a9nonc%c3%a9/2022_MP.pdf</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/concours/cnc/%c3%a9nonc%c3%a9/2021_MP.pdf</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/concours/cnc/%c3%a9nonc%c3%a9/2020_MP.pdf</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/concours/cnc/%c3%a9nonc%c3%a9/2019_MP.pdf</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://info-nf.com/concours/cnc/%c3%a9nonc%c3%a9/2018_MP.pdf</loc>
+  <lastmod>2025-05-19T19:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

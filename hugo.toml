@@ -5,8 +5,8 @@ enableInlineShortcodes = true
 # SEO and Meta Information
 [params]
   description = "Ressources pédagogiques pour les cours d'informatique en CPGE - Classes Préparatoires aux Grandes Écoles"
-  keywords = ["CPGE", "informatique", "programmation", "Python", "algorithmes", "cours", "éducation", "préparation", "grandes écoles"]
-  author = "Info-NF"
+  keywords = ["CPGE", "Classes préparatoires", "prépa", "informatique", "programmation", "Python", "algorithmes", "cours", "éducation", "grandes écoles", "CNC"]
+  author = "info-nf"
   dateFormat = "2006-01-02"
   # Theme color scheme
   primaryColor = "#2563eb"  # Blue
@@ -94,7 +94,7 @@ base = "https://github.com/"
 # Add social media meta tags
 [params.social]
 #  twitter = "@info_nf"
-  github = "github.com/nf-info"
+github = "github.com/nf-info"
 #  linkedin = "linkedin.com/company/info-nf"
 
 
