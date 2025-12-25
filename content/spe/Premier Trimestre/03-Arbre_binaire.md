@@ -31,13 +31,14 @@ Les nœuds ont 0, 1, ou plusieurs **fils**. Les nœuds sans fils sont
 appelé **feuilles** de l'arbre.\
 Le **degré** d'un nœud est le nombre de fils qu'il a.\
 La **profondeur** d'un nœud est le nombre d'arête nécessaire pour aller
-du nœud a la racine.\
+du nœud a la racine.
+
 On s'intéresse dans ce cours aux arbres **binaires**, c-a-d, les arbres
-ayant des nœuds de degré maximum 2.\
+ayant des nœuds de degré maximum 2.
 
 <figure>
 <p><img src="/img/03-arbre_2.png" style="width:60.0%" /></p>
-<figcaption><p>Classe de complexité</p></figcaption>
+<figcaption><p>Un arbre d'expression </p></figcaption>
 </figure>
 
 ## Structure récursive

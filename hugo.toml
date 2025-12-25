@@ -49,10 +49,10 @@ name = "Spe"
 pageRef = "/spe"
 weight = 20
 
-#[[menu.main]]
-#name = "Blog"
-#pageRef = "/blog"
-#weight = 30
+# [[menu.main]]
+# name = "Blog"
+# pageRef = "/blog"
+# weight = 30
 
 [[menu.main]]
 name = "About"

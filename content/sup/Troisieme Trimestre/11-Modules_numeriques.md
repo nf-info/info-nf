@@ -1,6 +1,6 @@
 ---
 title: Introduction aux modules NumPy et Matplotlib  
-weight: 90
+weight: 110
 ---
 ## Introduction
 
@@ -226,7 +226,7 @@ plt.grid(True)               # Afficher une grille
 plt.savefig("sinus.png")     # Sauvegarder l'image (optionnel)
 plt.show()                   # Afficher le graphique
 ```
-![Courbe simple](./res/08/sinus.png)
+![Courbe simple](/img/11/sinus.png)
 ### Personnalisation des courbes
 
 ```python
@@ -237,8 +237,7 @@ plt.plot(x, np.cos(x), label="cos(x)", color="red", linestyle="--", linewidth=2)
 plt.legend()  # Afficher la légende
 plt.show()
 ```
-![Plusieurs courbes](./res/08/2.png)
-
+![Plusieurs courbes](/img/11/2.png)
 ### Types de graphiques
 
 Matplotlib propose de nombreux types de graphiques :
@@ -255,7 +254,7 @@ plt.title("Nuage de points")
 plt.grid(True)
 plt.show()
 ```
-![Nuage de points](./res/08/3.png)
+![Nuage de points](/img/11/3.png)
 
 #### Histogramme
 
@@ -270,7 +269,7 @@ plt.ylabel("Fréquence")
 plt.grid(True)
 plt.show()
 ```
-![Histogramme](./res/08/4.png)
+![Histogramme](/img/11/4.png)
 
 #### Diagramme en barres
 
@@ -285,7 +284,7 @@ plt.xlabel("Catégorie")
 plt.ylabel("Valeur")
 plt.show()
 ```
-![Barres](./res/08/5.png)
+![Barres](/img/11/5.png)
 
 #### Diagramme circulaire (Camembert)
 
@@ -301,7 +300,7 @@ plt.axis("equal")  # Pour que le cercle soit un cercle
 plt.title("Diagramme circulaire")
 plt.show()
 ```
-![Camembert](./res/08/6.png)
+![Camembert](/img/11/6.png)
 
 ### Sous-graphiques
 
@@ -333,7 +332,7 @@ plt.title("Graphique 4")
 plt.tight_layout()  # Ajuste automatiquement les espaces
 plt.show()
 ```
-![sous-graphiques](./res/08/7.png)
+![sous-graphiques](/img/11/7.png)
 
 ### Graphiques 3D
 
@@ -364,7 +363,7 @@ fig.colorbar(surf, shrink=0.5, aspect=5)  # Barre de couleur
 
 plt.show()
 ```
-![3D](./res/08/8.png)
+![3D](/img/11/8.png)
 
 ## Exercices pratiques
 
